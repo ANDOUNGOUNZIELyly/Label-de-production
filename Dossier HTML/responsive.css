@@ -1,0 +1,50 @@
+/*Resonsive de la première section */
+.presentation{
+    display: flex!important;
+    width: 1000PX!important;
+    margin: 50px auto 50px auto !important;
+    margin-top: 700px;
+}
+
+.video2{
+    display: none;
+}
+.description {
+    margin-right: 15px;
+  }
+
+  .con {
+    margin:0 10px
+  }
+
+@media screen and (max-width: 677px) {
+    .presentation {
+        flex-direction: column;
+        align-items: center;    
+    }
+
+    .description {
+        border: 1px solid green;
+        margin-right: 15px;
+        margin-bottom: 20px;
+        width: 70% !important;
+      }
+
+      .video2{
+        display: block !important;
+      }
+
+      .video{
+        display: none!important;
+      }  
+    
+}
+
+
+/*Resonsive ARTISTES Start */
+@media (max-width: 676px){ 
+.container1 {
+  flex-direction: column;
+   margin:0 auto;
+}
+}
